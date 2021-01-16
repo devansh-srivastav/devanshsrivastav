@@ -41,7 +41,7 @@ class Navbar extends React.Component {
                 />
                 <MDBNavbar className='nav-style' color="black" fixed="top" dark expand="md" scrolling transparent>
                     <MDBNavbarBrand href="/">
-                        <img class='logo d-inline-block align-top' src={Logo} width="30" height="30" alt=""
+                        <img className='logo d-inline-block align-top' src={Logo} width="30" height="30" alt=""
                             loading="lazy" />
                                 Devansh Srivastav
                             </MDBNavbarBrand>

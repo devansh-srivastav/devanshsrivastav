@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Cover from "./Cover"
-
+import About from "./About"
 
 
 
@@ -10,6 +10,7 @@ function App() {
     <div>
       <Navbar />
       <Cover />
+      <About />
     </div>
   );
 }
