@@ -1,0 +1,116 @@
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+}
+
+*::-webkit-scrollbar-button:single-button {
+  background-color: black;
+  display: block;
+  border-style: solid;
+  height: 13px;
+  width: 16px;
+}
+
+*::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent gray transparent;
+}
+
+*::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent white transparent;
+}
+
+*::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 8px 8px 0 8px;
+  border-color: gray transparent transparent transparent;
+}
+
+*::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: white transparent transparent transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+.particles {
+  z-index: -2;
+  background-color: black;
+  position: absolute !important;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.8;
+}
+
+.nav-style {
+  font-family: 'Montserrat', sans-serif;
+  z-index: 3;
+}
+
+.nav-style .logo {
+  margin-right: 5%;
+}
+
+.header {
+  margin-top: 40vh;
+  vertical-align: middle;
+}
+
+.header .name {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.header .info {
+  color: white;
+  opacity: 0.85;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0.85;
+  margin-bottom: 4rem;
+}
+
+.header .i-m {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0.85;
+  margin-bottom: 1rem;
+}
+
+.header .cv {
+  z-index: 10;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  left: auto;
+  right: auto;
+  text-align: center;
+}
+
+.header .cv .btn {
+  border-radius: 10px;
+  font-size: large;
+}
+
+.header .cv .btn:hover {
+  background-color: white !important;
+  color: black !important;
+  border-color: black !important;
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
