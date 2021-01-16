@@ -1,4 +1,4 @@
-import {MDBContainer, MDBMask, MDBView } from 'mdbreact';
+import {MDBMask} from 'mdbreact';
 
 import 'mdbreact/dist/css/mdb.css';
 
