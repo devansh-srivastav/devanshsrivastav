@@ -133,4 +133,15 @@ body {
   margin-top: 350px;
   color: white;
 }
+
+.about .about-img {
+  height: 60vh;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+
+.icon {
+  height: 48px;
+  width: auto;
+}
 /*# sourceMappingURL=main.css.map */
