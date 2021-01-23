@@ -33,13 +33,16 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: black;
+    background-color: rgb(26,26,26);
+    .container-fluid{
+      padding: 0 15 0 0;
+    }
 }
 
 .particles{
     align-items: center;
     z-index: -2;
-    background-color: black;
+    //background-color: rgb(33,33,33);;
     position: absolute !important;
     height: 100vh;
     width: 90vw;
@@ -47,22 +50,24 @@ body{
     overflow: hidden !important;
     top:0;
     right: 0;   
-    left: 1.5vw;
+    //left: 1.5vw;
     bottom:0;
 }
 
 .nav-style{
     font-family: 'Montserrat', sans-serif;
-    z-index: 3;
+    z-index: 30;
     // background-color: black;
     .logo{
         margin-right: 5%;
     }
 }
 
+
+
 .header{
 
-    margin-top: 40vh;
+    margin-top: 15vh;
     vertical-align: middle;
 
     .name{
@@ -123,18 +128,87 @@ body{
 
 .about{
     position: relative;
-    margin-top: 350px;
+    // margin-top: 350px;
+    background-color: gray;
     color: white;
 
     .about-img{
-    height: 60vh;
+    height: 10vh;
     border-radius: 50px;
     vertical-align: middle;
     // float: right;
   }
 }
 
+
+.skills{
+  background-color: blue;
+}
+
 .icon{
     height: 48px;
-    width: auto;
+    width: 48px;
+    margin-right: 20px;
+}
+
+.list-group-flush{
+  // height: 48px;
+  width: 235px;
+  border-radius: 20px;
+  padding-left: 0;
+}
+
+.list-group-item{
+  background-color: transparent;
+  width: 235px;
+  border: 0;
+}
+
+.mb-0{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 20px;
+}
+
+.category{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  //margin-left: 40px;
+  margin-bottom: 0;
+}
+
+.row{
+  //align-items: center;
+}
+
+
+.contact-form{
+  .form_control {
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #242426;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  input, select, textarea {
+    border: none;
+    outline: none;
+  }
+  textarea.form_control {
+    min-height: 200px;
+    max-height: 500px;
+    // display: inherit;
+    // padding: 12px 20px;
+  }
+}
+
+.footbar{
+  width: 100vw;
+}
+
+.skillCol{
+  background-color: transparent;
 }

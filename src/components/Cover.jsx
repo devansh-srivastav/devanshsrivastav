@@ -5,7 +5,6 @@ import 'mdbreact/dist/css/mdb.css';
 
 function Cover(){
     return(
-        <div>
             <MDBMask className="flex-center flex-column text-white text-center">
                 <div className='header'>
                     <p className='i-m'>I'm</p>
@@ -16,7 +15,6 @@ function Cover(){
                     </div>
                 </div>
             </MDBMask>
-        </div>
     );
 }
 

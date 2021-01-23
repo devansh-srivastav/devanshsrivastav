@@ -40,7 +40,11 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: black;
+  background-color: #1a1a1a;
+}
+
+body .container-fluid {
+  padding: 0 15 0 0;
 }
 
 .particles {
@@ -48,7 +52,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   z-index: -2;
-  background-color: black;
   position: absolute !important;
   height: 100vh;
   width: 90vw;
@@ -56,13 +59,12 @@ body {
   overflow: hidden !important;
   top: 0;
   right: 0;
-  left: 1.5vw;
   bottom: 0;
 }
 
 .nav-style {
   font-family: 'Montserrat', sans-serif;
-  z-index: 3;
+  z-index: 30;
 }
 
 .nav-style .logo {
@@ -70,7 +72,7 @@ body {
 }
 
 .header {
-  margin-top: 40vh;
+  margin-top: 15vh;
   vertical-align: middle;
 }
 
@@ -130,18 +132,76 @@ body {
 
 .about {
   position: relative;
-  margin-top: 350px;
+  background-color: gray;
   color: white;
 }
 
 .about .about-img {
-  height: 60vh;
+  height: 10vh;
   border-radius: 50px;
   vertical-align: middle;
 }
 
+.skills {
+  background-color: blue;
+}
+
 .icon {
   height: 48px;
-  width: auto;
+  width: 48px;
+  margin-right: 20px;
+}
+
+.list-group-flush {
+  width: 235px;
+  border-radius: 20px;
+  padding-left: 0;
+}
+
+.list-group-item {
+  background-color: transparent;
+  width: 235px;
+  border: 0;
+}
+
+.mb-0 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 20px;
+}
+
+.category {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.contact-form .form_control {
+  width: 100%;
+  height: 60px;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #242426;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea {
+  border: none;
+  outline: none;
+}
+
+.contact-form textarea.form_control {
+  min-height: 200px;
+  max-height: 500px;
+}
+
+.footbar {
+  width: 100vw;
+}
+
+.skillCol {
+  background-color: transparent;
 }
 /*# sourceMappingURL=main.css.map */
