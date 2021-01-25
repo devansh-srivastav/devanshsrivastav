@@ -11,7 +11,7 @@
    data-name="Layer 1"
    viewBox="0 0 210.21 280.43"
    version="1.1"
-   sodipodi:docname="pandas_mark.svg"
+   sodipodi:docname="pandas_mark_white.svg"
    inkscape:version="0.92.4 (unknown)">
   <metadata
      id="metadata27">
@@ -33,12 +33,12 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1131"
-     inkscape:window-height="921"
+     inkscape:window-width="761"
+     inkscape:window-height="480"
      id="namedview25"
      showgrid="false"
      inkscape:zoom="0.84156476"
-     inkscape:cx="107.48153"
+     inkscape:cx="105.105"
      inkscape:cy="140.215"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -47,10 +47,10 @@
   <defs
      id="defs4">
     <style
-       id="style2">.cls-1{fill:#130754;}.cls-2{fill:#48e5ac;}.cls-3{fill:#e70488;}</style>
+       id="style2">.cls-1{fill:#fff;}.cls-2{fill:#48e5ac;}.cls-3{fill:#e70488;}</style>
   </defs>
   <title
-     id="title6">Artboard 61</title>
+     id="title6">Artboard 61 copy</title>
   <rect
      class="cls-1"
      x="74.51"
