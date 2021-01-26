@@ -13,7 +13,7 @@ const projects = [
     {
         id: 3,
         name: 'Advanced Twitter Scraping Tool',
-        desc: 'Used DCGANs for image augmentation with VGG-16 for transfer learning using CNN to classify pneumonia using chest X- ray images.'
+        desc: 'twitterUsernameviaUserID is written in Python and Selenium that allows for scraping Twitter usernames from the Twitter id\'s, without using Twitter\'s API.'
     },
     {
         id: 4,
@@ -38,7 +38,7 @@ const projects = [
     {
         id: 8,
         name: 'Real Time Sonar Simulation using Arduino',
-        desc: 'Used DCGANs for image augmentation with VGG-16 for transfer learning using CNN to classify pneumonia using chest X- ray images.'
+        desc: 'Using Arduino and Ultrasonic Sensors, an unknown distance was calculated using speed of the sound at that particular location.'
     }
 ]
 

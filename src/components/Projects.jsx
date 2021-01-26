@@ -13,7 +13,7 @@ function showCard(project){
 
 function Projects() {
     return (
-        <div>
+        <div className='projects'>
             <Section name='Projects' />
 
             {/* <div className="row">

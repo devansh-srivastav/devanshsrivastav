@@ -183,6 +183,26 @@ body .container-fluid {
   padding-bottom: 25px;
 }
 
+.contact form ::-webkit-input-placeholder {
+  color: #ffd600;
+  opacity: 0.4;
+}
+
+.contact form :-ms-input-placeholder {
+  color: #ffd600;
+  opacity: 0.4;
+}
+
+.contact form ::-ms-input-placeholder {
+  color: #ffd600;
+  opacity: 0.4;
+}
+
+.contact form ::placeholder {
+  color: #ffd600;
+  opacity: 0.4;
+}
+
 .contact form label {
   color: white;
   margin-left: 5px;
@@ -271,6 +291,11 @@ body .container-fluid {
   border: 0;
 }
 
+.research .researchButton .linkButton {
+  pointer-events: initial;
+  color: #ffd600;
+}
+
 .research .publication {
   padding: 10px;
   border-radius: 10px;
@@ -284,5 +309,15 @@ body .container-fluid {
 .publish-research {
   text-align: center;
   margin-bottom: 20px;
+}
+
+.projects .projectButton {
+  border-radius: 20px;
+  pointer-events: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0;
 }
 /*# sourceMappingURL=main.css.map */

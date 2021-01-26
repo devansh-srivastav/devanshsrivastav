@@ -24,6 +24,7 @@ function About(){
                             students to pursue technology and innovate. I continue to do so as the Tech Lead of my university’s chapter of Google
                             Developer Student Clubs.
                         </p>
+                        <h5 className='category'>Achievements</h5>
                     </MDBCol>
                     <MDBCol md="4">
                         <img className='about-img' src={AboutImage} alt=""></img>
