@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import Card from "./Card"
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBRow } from "mdbreact";
 import { projects } from "../projects"
 
 
@@ -13,7 +13,7 @@ function showCard(project){
 
 function Projects() {
     return (
-        <div className='projects'>
+        <div className='projects' id='projects'>
             <Section name='Projects' />
 
             {/* <div className="row">

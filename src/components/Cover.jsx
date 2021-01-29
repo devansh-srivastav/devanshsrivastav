@@ -11,7 +11,7 @@ function Cover(){
                     <h1 className='name'>Devansh Srivastav</h1>
                     <p className='info'>Machine Learning Student Researcher, Cloud Practitioner, Frontend Developer</p>
                     <div className='cv'>
-                        <button type="button" className="btn btn-outline-light btn-lg">Download CV</button>
+                    <button type="button" className="btn btn-outline-light btn-lg"><a href='http://bit.ly/devansh-srivastav-cv' target="_blank" rel="noopener noreferrer" className='linkButton' download='cv.pdf'>Download CV</a></button>
                     </div>
                 </div>
             </MDBMask>

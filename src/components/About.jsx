@@ -5,9 +5,24 @@ import Section from "./Section";
 
 import AboutImage from "../img/lib.jpg";
 
+import { achievements } from "../achievements"
+
+function showCard(skill) {
+    return (
+        <MDBCol md='6' sm='6' key={skill.id}>
+            <div className='ach-btn' >
+                <div className='btn btn-dark skillButton'>
+                    <p className="mb-0">{skill.name}</p>
+                </div>
+            </div>
+        </MDBCol>
+        
+    );
+}
+
 function About(){
     return(
-        <div className ='about'>
+        <div className ='about' id='about'>
             <Section name='About' />
             <MDBContainer fluid>
                 <MDBRow>
@@ -15,7 +30,7 @@ function About(){
                         <p className='about-content'>
                             Currently pursuing the third year of the Bachelor of Technology in Computer Science and Engineering program on
                             scholarship at Amity University, (Noida), India. My profound interest in artificial intelligence, machine learning,
-                            cloud computing, human-computer interaction and computer vision keeps me motivated to be up to date with the various
+                            cloud computing, data science, human-computer interaction, Internet of Things and computer vision keeps me motivated to be up to date with the various
                             research directions across the world. The ever-growing number of technological innovations ignites my curiosity and
                             pushes me to explore the world beyond courses and textbooks.
                             <br /><br />
@@ -24,12 +39,19 @@ function About(){
                             students to pursue technology and innovate. I continue to do so as the Tech Lead of my university’s chapter of Google
                             Developer Student Clubs.
                         </p>
-                        <h5 className='category'>Achievements</h5>
                     </MDBCol>
                     <MDBCol md="4">
                         <img className='about-img' src={AboutImage} alt=""></img>
                     </MDBCol>
                 </MDBRow>
+                <div className='container'>
+                    <h5 className='category'>Achievements</h5>
+                    {/* <MDBContainer fluid className='ach-btn'> */}
+                    <MDBRow>
+                        {achievements.map(showCard)}
+                    </MDBRow>
+                    {/* </MDBContainer> */}
+                </div>
             </MDBContainer>
         </div>
     );

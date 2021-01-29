@@ -4,7 +4,7 @@ import { MDBContainer } from "mdbreact";
 
 function Research(){
     return(
-        <div className='research'>
+        <div className='research' id='research'>
             <Section name='Research' />
             <MDBContainer fluid>
                 <div className="row">
@@ -15,7 +15,7 @@ function Research(){
                                 <h6 className='title'>A Vision Augmenting Smart Interactive Device to Increase Self-Dependency for Blind People</h6>
                                 <p>Indian Patent Office</p>
                                 <p>Abstract: The invention provides an interactive apparatus for visually impaired or blind people to process information, signs, figures, life forms and other surroundings and therefore empowering them to perform day to day functions like a sighted person. The apparatus comprises of a cap-mounted Internet-enabled imaging device to continuously capture surrounding information at 360 degrees and send it to a cloud server. The captured images are processed and analysed at the cloud to read text, detect incoming threats, assist in navigation, recognise people and more. The analysed data is converted into audio information according to the chosen language and dialect and is transmitted to a portable Internet-enabled handheld device. The audio is further transmitted to a bone conducted earpiece fitted in the cap over Bluetooth. This provides security and self-reliance and also enhances the capabilities of the user.</p>
-                                <a href='https://ipindia.gov.in/writereaddata/Portal/IPOJournal/1_4931_1/Part-1.pdf#page=101' className='linkButton'>See Patent (Page 101)</a>
+                                <a href='https://ipindia.gov.in/writereaddata/Portal/IPOJournal/1_4931_1/Part-1.pdf#page=101' target="_blank" rel="noopener noreferrer" className='linkButton'>See Patent (Page 101)</a>
                             </div>
                         </button>
                     </div>

@@ -18,21 +18,21 @@ function showSkill(skill) {
 
 function Skills() {
     return (
-        <div className='skills'>
+        <div className='skills' id='skills'>
             <Section name='Skills' />
             <MDBContainer fluid>
-                <h5 className='category'>Languages</h5>
-                {languages.map(showSkill)}
-                <h5 className='category'>Machine Learning</h5>
-                {machineLearning.map(showSkill)}
-                <h5 className='category'>Web</h5>
-                {webDev.map(showSkill)}
-                <h5 className='category'>Cloud</h5>
-                {cloud.map(showSkill)}
-                <h5 className='category'>Database</h5>
-                {database.map(showSkill)}
-                <h5 className='category'>Tools</h5>
-                {tools.map(showSkill)}
+                    <h5 className='category'>Languages</h5>
+                    {languages.map(showSkill)}
+                    <h5 className='category'>Machine Learning</h5>
+                    {machineLearning.map(showSkill)}
+                    <h5 className='category'>Web</h5>
+                    {webDev.map(showSkill)}
+                    <h5 className='category'>Cloud</h5>
+                    {cloud.map(showSkill)}
+                    <h5 className='category'>Database</h5>
+                    {database.map(showSkill)}
+                    <h5 className='category'>Tools</h5>
+                    {tools.map(showSkill)}
             </MDBContainer>
         </div>
     );

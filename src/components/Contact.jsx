@@ -5,7 +5,7 @@ import { MDBContainer } from "mdbreact";
 
 function Contact(){
     return(
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <Section name='Contact' />
             <MDBContainer>
                 <Form />

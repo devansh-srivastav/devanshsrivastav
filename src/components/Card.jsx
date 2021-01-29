@@ -1,25 +1,16 @@
 import React from 'react';
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBRow, MDBCol, MDBView, MDBIcon } from 'mdbreact';
+import { MDBCol } from 'mdbreact';
 
 const Card = (props) => {
     return (
-            // <MDBCol md='3'>
-            //     <MDBCard cascade>
-            //         <MDBCardBody cascade className='text-center'>
-            //             <MDBCardTitle className='card-title'>
-            //                 <strong>{props.name}</strong>
-            //             </MDBCardTitle>
-            //             <MDBCardText>
-            //                 {props.desc}
-            //             </MDBCardText>
-            //         </MDBCardBody>
-            //     </MDBCard>
-            // </MDBCol>
-            <MDBCol md='3'>
+            <MDBCol md='3' sm='6'>
+            <div>
                 <button className='btn btn-dark projectButton'>
-                <h6>{props.name}</h6>
-                <p>{props.desc}</p>
-            </button>
+                    <h6>{props.name}</h6>
+                    <p>{props.desc}</p>
+                </button>
+                </div>
+                
             </MDBCol>
     )
 }
