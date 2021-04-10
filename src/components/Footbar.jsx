@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBFooter, MDBIcon } from "mdbreact";
+import googlescholar from '../img/google_scholar.png';
 
 const Footbar = () => {
     return (
@@ -33,6 +34,9 @@ const Footbar = () => {
                         </a>
                         <a href='https://github.com/devansh-srivastav' className='px-2 fa-lg fb-ic'>
                             <MDBIcon fab icon='github' className='foot-icon'></MDBIcon>
+                        </a>
+                        <a href='https://scholar.google.com/citations?hl=en&user=4C3CZHUAAAAJ' className='px-2 fa-lg fb-ic'>
+                            <MDBIcon icon='user-graduate' className='foot-icon'></MDBIcon>
                         </a>
                     </MDBCol>
                     &copy; {new Date().getFullYear()} Copyright: <a href="https://www.devanshsrivastav.com"> Devansh Srivastav </a>
