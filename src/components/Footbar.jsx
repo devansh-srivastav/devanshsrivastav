@@ -1,6 +1,5 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBFooter, MDBIcon } from "mdbreact";
-import googlescholar from '../img/google_scholar.png';
 
 const Footbar = () => {
     return (
